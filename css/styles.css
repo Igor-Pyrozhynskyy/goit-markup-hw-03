@@ -1,0 +1,194 @@
+body {
+  background-color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+/* основна навігація сторінки*/
+.header {
+  background-color: #ffffff;
+}
+/* логотип */
+.nav-logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo {
+  color: #2196f3;
+}
+.list {
+  list-style: none;
+}
+.nav-link {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
+  color: #2196f3;
+}
+.nav-contacts {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.nav-contacts:focus,
+.nav-contacts:hover {
+  color: #2196f3;
+}
+/* герой */
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.hero-title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.3;
+  letter-spacing: 0.06em;
+}
+.hero-btn {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  margin-left: 700px;
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
+/* перша секція*/
+
+.main-title {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.main-text {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* зображення */
+.photo-title {
+  color: #212121;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+/* команда */
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  color: #212121;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+.team-people {
+  color: #212121;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+.team-position {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+/* фільтри */
+.filter-btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus,
+.filter-btn:active {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/* основний контент */
+.main-link {
+  text-decoration: none;
+}
+.main-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+  letter-spacing: 0.06em;
+}
+.main-category {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* підвал*/
+.footer {
+  background-color: #2f303a;
+}
+.footer-title {
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.footer-maps {
+  color: #ffffff;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.footer-maps:hover {
+  color: #2196f3;
+}
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: #2196f3;
+}

@@ -296,7 +296,6 @@ img {
 .filter__list {
   display: flex;
   justify-content: center;
-  /* margin-left: 295px; */
   margin-bottom: 50px;
   /* gap: 8px; */
 }

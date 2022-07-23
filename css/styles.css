@@ -291,11 +291,13 @@ img {
   border-radius: 4px;
   background-color: #f5f4fa;
   border: transparent;
+  padding: 6px 22px;
 }
 .filter__list {
   display: flex;
-  margin-left: 295px;
-  margin-right: 295px;
+
+  /* margin-left: 295px;
+  margin-right: 295px; */
   margin-bottom: 50px;
   /* gap: 8px; */
 }
@@ -332,6 +334,10 @@ img {
 .cards__item {
   border-bottom: 1px solid #eeeeee;
 }
+/* .cards__item:nth-child(n + 1) {
+  margin-right: 30px;
+  margin-left: 30px;
+} */
 .card-link {
   text-decoration: none;
 }

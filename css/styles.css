@@ -295,9 +295,7 @@ img {
 }
 .filter__list {
   display: flex;
-
-  /* margin-left: 295px;
-  margin-right: 295px; */
+  margin-left: 295px;
   margin-bottom: 50px;
   /* gap: 8px; */
 }

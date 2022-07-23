@@ -47,11 +47,11 @@ img {
 }
 .header {
   background-color: #ffffff;
+  border-bottom: 1px solid #ececec;
 }
 .header-menu {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 /*--------логотип---------- */
 .nav-logo {
@@ -156,6 +156,7 @@ img {
 /* ----------------перша секція-------------*/
 .main {
   display: flex;
+  padding-bottom: 0;
 }
 .main-list {
   display: flex;
@@ -171,6 +172,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 .main-text {
   color: var(--text-color);
@@ -221,8 +223,8 @@ img {
   font-weight: 500;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  margin-top: 30px;
   text-align: center;
+  margin-bottom: 10px;
 }
 .team-position {
   font-size: 16px;
@@ -230,14 +232,18 @@ img {
   color: var(--text-color);
   line-height: 1.18;
   letter-spacing: 0.03em;
-  margin-top: 10px;
   text-align: center;
-  margin-bottom: 30px;
+}
+.team-status {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* -------------підвал----------------*/
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-title {
   font-family: "Raleway", sans-serif;
@@ -247,13 +253,10 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-  margin-top: 60px;
-  display: inline-block;
   margin-bottom: 20px;
+  display: inline-block;
 }
-.footer__address {
-  padding-bottom: 60px;
-}
+
 .address__item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -329,9 +332,6 @@ img {
   flex-wrap: wrap;
   gap: 30px;
 }
-.cards__item {
-  border-bottom: 1px solid #eeeeee;
-}
 /* .cards__item:nth-child(n + 1) {
   margin-right: 30px;
   margin-left: 30px;
@@ -339,13 +339,19 @@ img {
 .card-link {
   text-decoration: none;
 }
+.card__status {
+  padding: 20px 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
 .card-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   color: var(--first-title-color);
   letter-spacing: 0.06em;
-  margin: 20px 24px 4px;
+  margin-bottom: 4px;
 }
 .card-category {
   font-weight: 400;
@@ -353,7 +359,4 @@ img {
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-bottom: 20px;
 }
